@@ -1,10 +1,10 @@
 function procesarRespuestas(){
-    let total = 10
+    let total = 10;
     let puntos = 0;
 
     let myForm = document.forms["formulario"];
     let respuestasCorrectas = ["a", "b", "c", "c", "c", "c", "c", "a", "c", "b"]; 
-    
+
     for (let i = 1; i <= total; i++) {
         if (myForm["r" + i].value == null ||
             myForm["r" + i].value == '') {
