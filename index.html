@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fase 4 Cuestonario - HF</title>
+    <link rel="shortcut icon" href="./images/iconhf.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/estilos.css">
+</head>
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h1>UNAD F4 HTML y CSS</h1>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#" class="nav__links">Inicio</a>
+                    <a href="#" class="nav__links">Acerca de</a>
+                    <a href="#" class="nav__links">Contacto</a>
+                </li>
+
+                <img src="./images/close.svg" alt="" class="nav__close">
+
+                <div class="nav__menu">
+                    <img src="./images/menu.svg" alt="" class="nav__img">                
+                </div>
+
+            </ul>
+
+         
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Cuestionario de HTML y CSS</h1>
+            <p>Comprueba tus conocimientos sobre los lenguajes de la Web con estas 10 preguntas. Al finalizar obtendrás el resultado y las respuestas correctas.</p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+      
+    <!--Preguntas-->
+    <div class="questions">
+        <div class="questions__container">
+        <form>
+                    <div class="questions__padding">
+                        <h2><strong>1. ¿Cuál es el lenguaje estándar específico para aplicar estilos de presentación a nuestras páginas web?</strong></h2>
+                    <ol type="a">
+                        <li><input type="radio" name="r1" value="p38">  Flash></li>
+                        <li><input type="radio" name="r1" value="p42">  Javascript</li>
+                        <li><input type="radio" name="r1" value="p30">  CSS</li>
+                    </ol>
+                    </div>
+                    
+                    <div class="questions__padding">
+                    <h2><strong>2. ¿Por qué es conveniente incluir la declaración de DOCTYPE en la página HTML?</strong></h2>
+                        <ol type="a">        
+                        <li><input type="radio" name="r2" value="p34">  Si no se incluye el navegador no puede renderizar (mostrar) la página</li>
+                        <li><input type="radio" name="r2" value="p35">  Para evitar que el navegador entre en 'Quirk Mode' y la interprete/muestre mal</li>
+                        <li><input type="radio" name="r2" value="p36">  Para indicar si se ha utilizado o no Flash</li>
+                    </ol>  
+                        </div>
+
+                    <div class="questions__padding">
+                    <h2><strong>3. ¿Para que sirve el atributo 'class'?</strong></h2> 
+                    <ol type="a">
+                        <li><input type="radio" name="r3" value="p07">  Para aplicar unos determinados estilos a los elementos que tenga la misma clase, es decir, el mismo valor en ese atributo</li>
+                        <li><input type="radio" name="r3" value="p07">  Es específico para indicar el color de la fuente que queremos aplicar, Por ejemplo: p class="red" presentaría las letras en rojo de ese párrafo</li>
+                        <li><input type="radio" name="r3" value="p08">  Para clasificar el tipo de enlace ('a') que estamos definiendo: 'salto' interno, vínculo a página en el mismo dominio o a un sitio web externo</li>
+                    </ol>
+                        </div>
+
+                    <div class="questions__padding">
+                    <h2><strong>4. ¿Qué está mal en esta regla de estilo?: .cuadro { border: 1px blue dotted padding: 10px 5px; }</strong></h2>
+                    <ol type="a">            
+                        <li><input type="radio" name="r4" value="p09">  Falta una ',' (coma) entre los dos valores de la propiedad padding (10px 5px)</li>
+                        <li><input type="radio" name="r4" value="p10">  Falta un ';' (punto y coma) al final de la declaración del estilo 'border'</li>
+                        <li><input type="radio" name="r4" value="p11">  No se puede poner un '.' (punto) al inicio de una declaración (antes de la palabra 'cuadro)'</li>
+                    </ol>
+                        </div>
+
+                    <div class="questions__padding">
+                    <h2><strong>5. ¿Cuál crees que es la mejor manera de aplicar estilos a una página web?</h2></strong>
+                    <ol type="a">
+                        <li><input type="radio" name="r5" value="p12">  Incluir los estilos en las etiquetas HTML para que se carguen y ejecuten antes.</li>
+                        <li><input type="radio" name="r5" value="p13">  Incluirlos en un fichero externo vinculado a ese fichero HTML.</li>
+                        <li><input type="radio" name="r5" value="p14">  Incluirlos en la sección cabecera ('head') para agruparlos en un mismo sitio en la misma página.</li>
+                    </ol>
+                        </div>
+        
+                    <div class="questions__padding">
+                    <h2> <strong>6. ¿Qué función tiene el elemento 'div'?</h2></strong>
+                    <ol type="a">
+                        <li><input type="radio" name="r6" value="p15">  Es un elemento divisor, y hace que el navegador muestre una línea horizontal de separación (por ejemplo entre secciones de la página)</li>
+                        <li><input type="radio" name="r6" value="p16">  Es un contenedor. Crea bloques, por ejemplo para diferenciar distintas secciones de una página (cabecera, pié, columnas..)</li>
+                        <li><input type="radio" name="r6" value="p17">  Permite realizar una operación arirmética de división en los valores númericos de una tabla (también se utiliza 'sum' y 'dif' para suma y resta)</li>
+                    </ol>
+                        </div>
+        
+                    <div class="questions__padding">
+                    <h2><strong>7. ¿Qué significa que una etiqueta/elemento está 'deprecated' en HTML?</h2></strong>
+                    <ol type="a">
+                        <li><input type="radio" name="r7" value="p18">  Para aplicar unos determinados estilos a los elementos que tenga la misma clase, es decir, el mismo valor en ese atributoQue si la utilizamos no la entenderán (y no se podrá visualizar bien) en los navegadores</li>
+                        <li><input type="radio" name="r7" value="p19">  Que ya no forma parte de las especificaciones de la esa versión concreta del estándar HTML</li>
+                        <li><input type="radio" name="r7" value="p20">  Que ha cambiado de nombre ese elemento en la siguiente versión de HTML</li>
+                    </ol>
+                        </div>
+
+                    <div class="questions__padding">
+                    <h2><strong>8. Si incluimos una etiqueta de este tipo en nuestra página HTML, ¿qué queremos que haga el navegador?: img src="../icono.gif"></strong></h2>
+                    <ol type="a">
+                        <li></label><input type="radio" name="r8" value="p21">  Que incluya la imagen 'icono.gif' que se encuentra en el directorio padre de la carpeta donde está nuestra página HTML</li>
+                        <li><input type="radio" name="r8" value="p22">  Que incluya la imagen 'icono.gif' que se encuentra en la misma carpeta donde está nuestra página HTML</li>
+                        <li><input type="radio" name="r8" value="p23">  Que incluya la imagen 'icono.gif' que se encuentra en el directorio 'img'</li>
+                    </ol> 
+                        </div>
+
+                    <div class="questions__padding">
+                    <h2> <strong>9. ¿Cómo se incluye un comentario nuestro en una página HTML para que no se interprete por el navegador?</strong></h2>
+                    <ol type="a">
+                        <li><input type="radio" name="r9" value="p24"> Con 3 asteriscos al principio y final del comentario. Ej: ***comentario sobre el código***</li>
+                        <li><input type="radio" name="r9" value="p25"> Con 3 barras' al principio y final del comentario. Ej: ///comentario sobre el código///</li>
+                        <li><input type="radio" name="r9" value="p26"> Con la etiqueta de apertura ' al principio y final del comentario. Ej: /*(!--comentario sobre el código--)*/</li>
+                    </ol>  
+                    </div>
+
+                    <div class="questions__padding">
+                    <h2><strong>10. Para poder modificar el fondo en el cuerpo de una pagina "body" se utiliza:</h2>
+                    </strong>
+                    <ol type="a">
+                        <li><input type="radio" name="r10" value="p27"> bgcolor</li>
+                        <LI><input type="radio" name="r10" value="p28"> background</li>
+                        <li><input type="radio" name="r10" value="p29"> Ninguna de las anteriores</li>
+                    </ol>
+                     </div>
+                     <hr />
+                     <button type="button" class="btn btn-primary" onclick="resultado()">RESULTADO</button>
+                     <hr />
+        </form>
+        </div>
+    </div>
+    </main>
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">Fase 4 Preguntas</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Acerca de</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+
+            </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./images/facebook.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/twitter.svg" class="footer__img"></a>
+                <a href="#" class="footer__icons"><img src="./images/youtube.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Holman Fonseca UNAD 2023</h3>
+        </section>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!--Llamada al script de respuestas-->
+    <script src="./js/script.js"> </script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
+        integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
+        crossorigin="anonymous"></script>
+</body>
+</html>
