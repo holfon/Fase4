@@ -32,7 +32,7 @@ function resultado() {
     if (document.getElementById('p28').checked==true) {p10=1}
     else {p10=0}
 
-    for(let p = 1; p <= total; p++){
+   /* for(let p = 1; p <= total; p++){
         if (myForm["r" + p].value == null ||
         myForm["r" + p].value == ''){
             alert('Favor responder todas las preguntas');
@@ -45,5 +45,9 @@ function resultado() {
 
     let resultado = document.getElementById('resultado')
     resultado.innerHTML= 'Obtuviste: ' +nota + 'puntos';
-    return false;
+    return false;*/
+
+    nota=p1+p2+p3+p4+p5+p6+p7+p8+p9+p10;
+    alert(" Aciertos: " + nota);
+    window.location = 'index.html'
 }

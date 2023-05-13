@@ -45,7 +45,7 @@
     <!--Preguntas-->
     <div class="questions">
         <div class="questions__container">
-        <form>
+        <form name="formulario">
                     <div class="questions__padding">
                         <h2><strong>1. ¿Cuál es el lenguaje estándar específico para aplicar estilos de presentación a nuestras páginas web?</strong></h2>
                     <ol type="a">
@@ -136,9 +136,9 @@
                         <li><input type="radio" name="r10" value="p29"> Ninguna de las anteriores</li>
                     </ol>
                      </div>
-                     <hr />
-                     <button type="button" class="btn btn-primary" onclick="resultado()">RESULTADO</button>
-                     <hr />
+                     
+                     <input type="button" value=" Enviar" onclick= "procesarRespuestas()">
+                     
         </form>
         </div>
     </div>
@@ -177,7 +177,8 @@
     </footer>
     <!-- Optional JavaScript -->
     <!--Llamada al script de respuestas-->
-    <script src="./js/script.js"> </script>
+    <!--<script src="./js/script.js"> </script>-->
+    <script src="./js/Respuesta.js"> </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
