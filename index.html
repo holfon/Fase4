@@ -137,14 +137,20 @@
                     </ol>
                      </div>
                     -->
-                     <input type="button" value=" Enviar" onclick= "procesarRespuestas()">
-                     
+                    <div class="button">
+                        <input type="button" value=" Enviar" onclick= "procesarRespuestas()">
+                    </div>
+
+                    <div class="button1">
+                        <input type="button" value="Refrescar página" onclick= "refrescarPagina()">
+                    </div>
+                    
         </form>
         </div>
     </div>
     </main>
     <h4 id = "resultado"></h4>
-    
+
     <footer class="footer">
         <section class="footer__container container">
             <nav class="nav nav--footer">
@@ -179,8 +185,7 @@
     </footer>
     <!-- Optional JavaScript -->
     <!--Llamada al script de respuestas-->
-    <!--<script src="./js/script.js"> </script>-->
-    <script src="./js/Respuesta.js"> </script>
+       <script src="./js/Respuesta.js"> </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -191,5 +196,20 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js"
         integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp"
         crossorigin="anonymous"></script>
+<style>
+    body {
+        background-color: rgb(197, 240, 225);
+    }
+</style>
+    <script>
+        window.onload = () => {
+            setTimeout(() => {
+                document.getElementsByTagName('body')[0].style.backgroundColor = 'white';
+            }, 3000);        
+    }
+    function refrescarPagina(){
+        location.reload ();
+    }
+    </script>
 </body>
 </html>

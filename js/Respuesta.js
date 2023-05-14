@@ -16,6 +16,12 @@ function procesarRespuestas(){
         }
     }
     window.alert('Obtuviste: '+puntos+' puntos de ' + total + ' posibles ');
+    let resultado = document.getElementById('resultado')
+    resultado.innerHTML='Obtuviste: '+puntos+' puntos de ' + total + ' posibles ';
     return false;
+
 }
+
+   
+
 
